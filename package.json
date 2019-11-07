@@ -1,0 +1,35 @@
+{
+  "name": "qr-code-scanner-typescript",
+  "version": "1.0.2",
+  "description": "typescript version of qr-code-scanner",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jochnickel/qr-code-scanner-typescript.git"
+  },
+  "keywords": [
+    "qr",
+    "code",
+    "scanner",
+    "typescript",
+    "qrcode"
+  ],
+  "author": "Joachim Janke <joachim.remdi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jochnickel/qr-code-scanner-typescript/issues"
+  },
+  "homepage": "https://github.com/Jochnickel/qr-code-scanner-typescript#readme",
+  "dependencies": {
+    "qr-code-scanner": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.6",
+    "node": "^12.13.0",
+    "typescript": "^3.7.2"
+  },
+  "files": ["lib/**/*"]
+}
